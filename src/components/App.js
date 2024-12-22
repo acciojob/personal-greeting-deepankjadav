@@ -18,7 +18,7 @@ const App = () => {
         type="text"
         onChange={handleChange}
       ></input>
-      <p>{name}</p>
+      <p>{name ? `Hello ${name}!` : ""}</p>
     </div>
   );
 };
